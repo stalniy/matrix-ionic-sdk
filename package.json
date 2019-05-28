@@ -1,0 +1,24 @@
+{
+  "name": "matrix-ionic-sdk",
+  "private": true,
+  "version": "0.0.1",
+  "description": "matrix-ionic-sdk",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watch"
+  },
+  "dependencies": {
+    "@ionic/core": "one",
+    "events": "^3.0.0",
+    "matrix-js-sdk": "~1.1.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "1.0.0-beta.5"
+  }
+}

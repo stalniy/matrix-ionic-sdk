@@ -1,0 +1,64 @@
+:host {
+  display: block;
+  --content-background: #fff;
+  --messages-date-color: #8e8e93;
+  --messages-date-weight: 600;
+  --messages-date-size: 11px;
+}
+
+.message-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #fff;
+}
+
+.mx-messages {
+  padding-bottom: 20px;
+}
+
+.mx-messages-wrapper {
+  background: var(--content-background);
+}
+
+.mx-messages-content {
+  padding-top: 40px;
+  height: 100%;
+}
+
+.messages-date {
+  text-align: center;
+  font-weight: var(--messages-date-weight);
+  font-size: var(--messages-date-size);
+  line-height: 1;
+  margin: 10px 15px;
+  color: var(--messages-date-color);
+}
+
+.messages-date span {
+  font-weight: 400;
+}
+
+.message-text {
+  max-width: 80%;
+}
+
+.message-body {
+  white-space: pre-line;
+}
+
+.message-date {
+  font-size: 12px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: right;
+}
+
+.new-messages {
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
