@@ -1,6 +1,6 @@
 # Matrix.org SDK based on Stencil and Ionic
 
-This is implementation of [matrix.org]() client based native web components with help of Ionic and Stencil.
+This is implementation of [matrix.org](https://matrix.org) client based native web components with help of Ionic and Stencil.
 The project is **under development**
 
 ## Installation
